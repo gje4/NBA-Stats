@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65EE0B2B1A89376E00AF25E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE0B2A1A89376E00AF25E7 /* AppDelegate.swift */; };
+		65EE0B2E1A89376E00AF25E7 /* Nba_Stats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65EE0B2C1A89376E00AF25E7 /* Nba_Stats.xcdatamodeld */; };
+		65EE0B301A89376E00AF25E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE0B2F1A89376E00AF25E7 /* ViewController.swift */; };
+		65EE0B331A89376E00AF25E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EE0B311A89376E00AF25E7 /* Main.storyboard */; };
+		65EE0B351A89376E00AF25E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EE0B341A89376E00AF25E7 /* Images.xcassets */; };
+		65EE0B381A89376F00AF25E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE0B361A89376F00AF25E7 /* LaunchScreen.xib */; };
+		65EE0B441A89376F00AF25E7 /* Nba_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE0B431A89376F00AF25E7 /* Nba_StatsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65EE0B3E1A89376F00AF25E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65EE0B1D1A89376E00AF25E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EE0B241A89376E00AF25E7;
+			remoteInfo = "Nba Stats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65EE0B251A89376E00AF25E7 /* Nba Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nba Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EE0B291A89376E00AF25E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EE0B2A1A89376E00AF25E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65EE0B2D1A89376E00AF25E7 /* Nba_Stats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nba_Stats.xcdatamodel; sourceTree = "<group>"; };
+		65EE0B2F1A89376E00AF25E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65EE0B321A89376E00AF25E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65EE0B341A89376E00AF25E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65EE0B371A89376F00AF25E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65EE0B3D1A89376F00AF25E7 /* Nba StatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nba StatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EE0B421A89376F00AF25E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EE0B431A89376F00AF25E7 /* Nba_StatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nba_StatsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65EE0B221A89376E00AF25E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EE0B3A1A89376F00AF25E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65EE0B1C1A89376E00AF25E7 = {
+			isa = PBXGroup;
+			children = (
+				65EE0B271A89376E00AF25E7 /* Nba Stats */,
+				65EE0B401A89376F00AF25E7 /* Nba StatsTests */,
+				65EE0B261A89376E00AF25E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65EE0B261A89376E00AF25E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65EE0B251A89376E00AF25E7 /* Nba Stats.app */,
+				65EE0B3D1A89376F00AF25E7 /* Nba StatsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65EE0B271A89376E00AF25E7 /* Nba Stats */ = {
+			isa = PBXGroup;
+			children = (
+				65EE0B2A1A89376E00AF25E7 /* AppDelegate.swift */,
+				65EE0B2F1A89376E00AF25E7 /* ViewController.swift */,
+				65EE0B311A89376E00AF25E7 /* Main.storyboard */,
+				65EE0B341A89376E00AF25E7 /* Images.xcassets */,
+				65EE0B361A89376F00AF25E7 /* LaunchScreen.xib */,
+				65EE0B2C1A89376E00AF25E7 /* Nba_Stats.xcdatamodeld */,
+				65EE0B281A89376E00AF25E7 /* Supporting Files */,
+			);
+			path = "Nba Stats";
+			sourceTree = "<group>";
+		};
+		65EE0B281A89376E00AF25E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EE0B291A89376E00AF25E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65EE0B401A89376F00AF25E7 /* Nba StatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65EE0B431A89376F00AF25E7 /* Nba_StatsTests.swift */,
+				65EE0B411A89376F00AF25E7 /* Supporting Files */,
+			);
+			path = "Nba StatsTests";
+			sourceTree = "<group>";
+		};
+		65EE0B411A89376F00AF25E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EE0B421A89376F00AF25E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EE0B241A89376E00AF25E7 /* Nba Stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EE0B471A89376F00AF25E7 /* Build configuration list for PBXNativeTarget "Nba Stats" */;
+			buildPhases = (
+				65EE0B211A89376E00AF25E7 /* Sources */,
+				65EE0B221A89376E00AF25E7 /* Frameworks */,
+				65EE0B231A89376E00AF25E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nba Stats";
+			productName = "Nba Stats";
+			productReference = 65EE0B251A89376E00AF25E7 /* Nba Stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65EE0B3C1A89376F00AF25E7 /* Nba StatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EE0B4A1A89376F00AF25E7 /* Build configuration list for PBXNativeTarget "Nba StatsTests" */;
+			buildPhases = (
+				65EE0B391A89376F00AF25E7 /* Sources */,
+				65EE0B3A1A89376F00AF25E7 /* Frameworks */,
+				65EE0B3B1A89376F00AF25E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EE0B3F1A89376F00AF25E7 /* PBXTargetDependency */,
+			);
+			name = "Nba StatsTests";
+			productName = "Nba StatsTests";
+			productReference = 65EE0B3D1A89376F00AF25E7 /* Nba StatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65EE0B1D1A89376E00AF25E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nanigans;
+				TargetAttributes = {
+					65EE0B241A89376E00AF25E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					65EE0B3C1A89376F00AF25E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 65EE0B241A89376E00AF25E7;
+					};
+				};
+			};
+			buildConfigurationList = 65EE0B201A89376E00AF25E7 /* Build configuration list for PBXProject "Nba Stats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65EE0B1C1A89376E00AF25E7;
+			productRefGroup = 65EE0B261A89376E00AF25E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65EE0B241A89376E00AF25E7 /* Nba Stats */,
+				65EE0B3C1A89376F00AF25E7 /* Nba StatsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65EE0B231A89376E00AF25E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE0B331A89376E00AF25E7 /* Main.storyboard in Resources */,
+				65EE0B381A89376F00AF25E7 /* LaunchScreen.xib in Resources */,
+				65EE0B351A89376E00AF25E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EE0B3B1A89376F00AF25E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65EE0B211A89376E00AF25E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE0B301A89376E00AF25E7 /* ViewController.swift in Sources */,
+				65EE0B2B1A89376E00AF25E7 /* AppDelegate.swift in Sources */,
+				65EE0B2E1A89376E00AF25E7 /* Nba_Stats.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EE0B391A89376F00AF25E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE0B441A89376F00AF25E7 /* Nba_StatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65EE0B3F1A89376F00AF25E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65EE0B241A89376E00AF25E7 /* Nba Stats */;
+			targetProxy = 65EE0B3E1A89376F00AF25E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65EE0B311A89376E00AF25E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE0B321A89376E00AF25E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65EE0B361A89376F00AF25E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE0B371A89376F00AF25E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65EE0B451A89376F00AF25E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65EE0B461A89376F00AF25E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65EE0B481A89376F00AF25E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nba Stats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65EE0B491A89376F00AF25E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nba Stats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65EE0B4B1A89376F00AF25E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nba StatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nba Stats.app/Nba Stats";
+			};
+			name = Debug;
+		};
+		65EE0B4C1A89376F00AF25E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nba StatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nba Stats.app/Nba Stats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65EE0B201A89376E00AF25E7 /* Build configuration list for PBXProject "Nba Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EE0B451A89376F00AF25E7 /* Debug */,
+				65EE0B461A89376F00AF25E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EE0B471A89376F00AF25E7 /* Build configuration list for PBXNativeTarget "Nba Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EE0B481A89376F00AF25E7 /* Debug */,
+				65EE0B491A89376F00AF25E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65EE0B4A1A89376F00AF25E7 /* Build configuration list for PBXNativeTarget "Nba StatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EE0B4B1A89376F00AF25E7 /* Debug */,
+				65EE0B4C1A89376F00AF25E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65EE0B2C1A89376E00AF25E7 /* Nba_Stats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65EE0B2D1A89376E00AF25E7 /* Nba_Stats.xcdatamodel */,
+			);
+			currentVersion = 65EE0B2D1A89376E00AF25E7 /* Nba_Stats.xcdatamodel */;
+			path = Nba_Stats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65EE0B1D1A89376E00AF25E7 /* Project object */;
+}
